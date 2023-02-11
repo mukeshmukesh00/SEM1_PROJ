@@ -1,0 +1,616 @@
+@font-face {
+    font-family:"ass";
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     max-width: 1920px;
+     font-family:arial,sans-serif;
+}
+
+.center{
+    margin-inline: auto;
+}
+/* ------------------------------------------------ */
+
+.logo img{
+    width: 100px;  
+}
+.logo{
+  padding:0 1em ;
+
+}
+.navbar-nav{
+    align-items: center;
+    font-family: ass;
+    
+}
+.navbar .navbar-nav .nav-item{
+    padding:.5em 01em ;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .logo{
+    padding-inline: 3em;
+}
+
+/* above is navbar -----------------------------------*/
+.stage img{
+    width: 100%;
+}
+/* this fixes the img ratio */
+
+.header{
+
+    position: absolute;
+    padding-left: 10px;
+}
+.stage-container h1{
+    font-family: garamond;
+    color: white;
+    margin-top: 50px;
+    font-size: 66px;
+    line-height: 66px;
+}
+.stage-container h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 620px;
+}
+.stage-container{
+    position: absolute;
+    padding:50px 80px 150px ;  
+ 
+}
+.stage-container header{
+    justify-content: center;
+}
+.stage-button {
+    margin-top: 21px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    display: table;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.stage-button:hover{
+    color: black;
+    background: white;
+    border: 1px solid white
+}
+
+.stage-container .headline-first{
+    margin-left: 280px;
+}
+.stage-container .headline-second{
+    margin-left: 351px;
+}
+/* ----------------------STAGE---------------------------- */
+
+.collage h2{
+    font-size: 38px;
+    line-height: 32px;
+    margin: 0 0 40px 10px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+
+}
+
+
+.pic1 img{
+    
+     width: 100%;
+}
+.pic2 img{
+ 
+    width: 100%;
+}
+.pic3 img{
+    width: 100%;
+}
+
+
+.pic1{
+    padding-bottom: 11px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: pic1;
+}
+.pic2{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: pic2;
+}
+.pic3{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: pic3;
+}
+
+
+.pic1 figcaption{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+    margin-top: -50px;
+}
+.pic2 figcaption{
+
+    margin-top:-50px ;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+.pic3 figcaption{
+    margin-top:-50px ;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+
+.collage{
+    padding: 50px;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "pic1 pic1 pic2 pic2 pic2 pic2"
+    "pic3 pic3 pic2 pic2 pic2 pic2 ";
+}
+
+/* --------------------------MODELS------------------------ */
+.uni h2{
+    font-size: 38px;
+    line-height: 32px;
+    margin: 0 0 40px 10px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+
+}
+
+
+.uni1 img{
+    
+     width: 100%;
+}
+.uni2 img{
+ 
+    width: 100%;
+}
+.uni3 img{
+    width: 100%;
+}
+
+
+.uni1{
+    padding-bottom: 11px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: pic1;
+}
+.uni2{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: pic2;
+}
+.uni3{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: pic3;
+}
+
+
+.uni1 figcaption{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+    margin-top: -50px;
+}
+.uni2 figcaption{
+
+    margin-top:-50px ;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+.uni3 figcaption{
+    margin-top:-50px ;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+
+.uni{
+    padding: 50px;
+}
+.uni-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "pic1 pic1 pic2 pic2 pic3 pic3"
+    "pic1 pic1 pic2 pic2 pic3 pic3 ";
+}
+
+
+/* ----------------------------uni------------------------------- */
+
+
+
+.news{
+    padding: 50px 50px;
+}
+.card-grid{
+    padding: 10px;
+    
+}
+.news h2{
+    font-size: 48px;
+    line-height: 32px;
+    margin: 0 0 40px 10px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+
+}
+.sec-1{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: one;
+}
+.sec-2{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: two;
+}
+.sec-3{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: three;
+}
+.sec-4{
+    position: relative;
+    cursor: pointer;
+    margin: 0 0 10px 10px;
+    grid-area: four;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-areas:
+    "one one one"   
+    "two three four" 
+    ". . ."
+    ;
+
+}
+.card-grid .card h5{
+    font-size: 29px;
+    line-height: 32px;
+    margin: 0 0 40px 10px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+/* <!-- ---------------------------------NEWS--------------------------------------- --!> */
+/* .page-footer{
+    background-color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+     padding: 40px 50px 15px 50px;
+} 
+
+.nets li {
+    padding: 0;
+    margin: 0 1em;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: block;
+
+}
+.nets ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+.nets i{
+    color: white;
+    font-size: 25px;
+    
+}
+.nets{
+    padding:20% 0 30% 0;
+    margin-left:0%; 
+}
+
+.copyrgt{
+     list-style: none;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.short-links{
+    margin-top: 3.5em;
+}
+
+.short-links ul{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.short-links li{
+    font-size: 12px;
+    color: #a2a2a2;
+    font-weight: 300;
+    margin: 0 15px;
+}
+
+
+.foot-grid{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.map iframe{
+ width: 100%;
+height: 100%;
+
+}  */
+/* ---------------FOOTER WITH EMBEDED MAP-------------- */
+
+.page-footer{
+    font-family: ass;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-transform: uppercase;
+     padding: 40px 50px 15px 50px;
+} 
+.nets li {
+    padding: 0;
+    margin: 0 1em;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: block;
+
+}
+.nets ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+}
+.nets i{
+    color: white;
+    font-size: 25px;
+    
+}
+.nets{
+    margin-left:0%; 
+}
+.copyrgt{
+     list-style: none;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.short-links{
+    margin-top: 3.5em;
+}
+.short-links ul{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.short-links li{
+    font-size: 12px;
+    color: #a2a2a2;
+    font-weight: 300;
+    margin: 0 15px;
+}
+  
+
+
+/* ------------------------------------------------------------ */
+.a1-img1{
+    grid-area: box1;
+}
+.a1-img1 img{
+    width: 100%;
+    
+
+}
+.a1-text {
+    padding: 0 140px 20px 60px;
+    grid-area: text;
+}
+.a1-text h1{
+    font-family: garamond;
+    margin-block: 32px;
+    font-size: 56px;
+}
+.a1-text a{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 0 30px;
+    display: block;
+    font-size: 17px;
+    line-height: 25px;
+    color: #707070;
+}
+.a1-text .subheadline{
+    display: block;
+    text-indent: .5em;
+    font-size: .8em;
+    font-style: italic;
+    color: #4d4d4d;
+}
+.area1-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    " box1 box1 text text"
+    " box1 box1 text text"
+    ;
+
+}
+
+
+.a2-img1{
+    grid-area: box1;
+}
+.a2-img1 img{
+    width: 100%;
+}
+.a2-text {
+    padding: 0 140px 20px 60px;
+    grid-area: text;
+}
+.a2-text h1{
+    font-family: garamond;
+    margin-block: 32px;
+    font-size: 56px;
+}
+.a2-text a{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 0 30px;
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    color: #707070;
+}
+.a2-text .subheadline{
+    display: block;
+    text-indent: .5em;
+    font-size: .8em;
+    font-style: italic;
+    color: #4d4d4d;
+}
+.area2-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "  text text box1 box1"
+    "  text text box1 box1"
+    ;
+}
+
+
+
+.a3-img1{
+    grid-area: box1;
+}
+.a3-img1 img{
+    width: 100%;
+    
+
+}
+.a3-text {
+    padding: 0 140px 20px 60px;
+    grid-area: text;
+}
+.a3-text h1{
+    font-family: garamond;
+    margin-block: 32px;
+    font-size: 56px;
+}
+.a3-text a{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 0 30px;
+    display: block;
+    font-size: 17px;
+    line-height: 25px;
+    color: #707070;
+}
+.a3-text .subheadline{
+    display: block;
+    text-indent: .5em;
+    font-size: .8em;
+    font-style: italic;
+    color: #4d4d4d;
+}
+.area3-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    " box1 box1 text text"
+    " box1 box1 text text"
+    ;
+}
+
+
+
+
